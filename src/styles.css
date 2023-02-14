@@ -1,0 +1,7 @@
+html, body {
+    background-color: #21232A;
+    color: white;
+    box-sizing: border-box;
+    padding: 60px;
+    font-size: 1.6rem;
+}
