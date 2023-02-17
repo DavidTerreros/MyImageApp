@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import CounterApp from './components/CounterApp'
-import './index.css'
-import './styles.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+import App from "./router/App";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <CounterApp value={1100}/>
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
